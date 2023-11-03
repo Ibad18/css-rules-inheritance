@@ -1,0 +1,24 @@
+/* Last Rules */
+p{
+    color: blue;
+}
+p{
+    color: red;
+}
+/* Specificty */
+*{
+    color: red;
+}
+p{
+    color: green;
+}
+p#lorem{
+    color: yellow;
+}
+/* important */
+i{
+    color: black !important;
+}
+i{
+    color: purple;
+}
